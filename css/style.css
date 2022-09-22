@@ -1,0 +1,87 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+  #header-img{
+    float:left;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    }
+
+ 
+  
+  .thumbnail{
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+      padding:10px;
+  }
+  .text{
+      margin-left: 10px;
+  }
+  #video{
+    text-align: center;
+  }
+  
+  
+  #row{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    height: 300px;
+    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  #header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #form{
+    float: left;
+    margin-left: 10px;
+  }
